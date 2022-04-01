@@ -1,1 +1,1 @@
-fuck
+How this thing works?
