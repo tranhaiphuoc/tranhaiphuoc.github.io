@@ -5,7 +5,9 @@
   
   <body>
     <h1>Gacha Addicts meet each other!!!</h1>
+    <h2>Teri Teri, sekai no ichiban de kawaii!!!<h/2>
+      <p></p>
     <div><img src="OIP2.jpg" width="216" height="184">
-    <img src="OIP.jpg" width="216" height="184"></div>
+    <img align="right" src="OIP.jpg" width="216" height="184"></div>
   </body>
 </html>
