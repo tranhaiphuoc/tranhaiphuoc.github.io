@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Page Title</title>
+    <title>Life is a misery</title>
   </head>
   
   <body>
