@@ -27,7 +27,6 @@
 	  width: 100%;
 	}
 	td {
-	  width: 50%;
 	  text-align: center;
 	}
 	.center {
