@@ -21,11 +21,9 @@
 	  left: 43%;
 	  color: white;
 	}
-	table, th, td {
+	table, td {
 	  border: 1px solid white;
 	  text-align: center;
-	}
-	table {
 	  border-collapse: collapse;
 	  width: 100%;
 	}
@@ -135,7 +133,7 @@
 <form>
   <label for="name">Your name:</label><br>
   <input type="text" id="name" name="name"><br>
-  <label for="lname">Phone number:</label><br>
+  <label for="phone">Phone number:</label><br>
   <input type="text" id="phone" name="phone">
 </form>
 
