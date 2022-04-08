@@ -16,12 +16,11 @@
 	}
 	.centered a {
 	  position: relative;
-	  left: 46%;
+	  left: 44%;
 	  color: white;
 	}
 	table, td, th {
 	  width: 50%;
-	  color: white;
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
