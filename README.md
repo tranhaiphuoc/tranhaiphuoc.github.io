@@ -24,10 +24,6 @@
 	  border-collapse: collapse;
 	  text-align: center;
 	}
-	.center {
-	  margin-left: auto;
-  	  margin-right: auto;
-	}
 	</style>
 	</head>
 
@@ -68,8 +64,8 @@
 
 <p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
 
-<table class="center" style="background-color: black;" >
-  <tr class="center">
+<table>
+  <tr>
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
   </tr>
