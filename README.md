@@ -5,8 +5,58 @@
 <body>
 <table>
   <tr>
-    <td>100</td>
+    <th>Anh Kiệt</th>
+    <th>Trạng Thái</th>
+  </tr>
+  <tr>
+    <td>Kevin</td>
+    <td>Sống</td>
+  </tr>
+  <tr>
+    <td>Elysia</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Aponia</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Eden</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Vill-V</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Su</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td>Sakura</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Kosma</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Mobius</td>
+    <td>?</td>
+  </tr>
+  <tr>
+    <td>Griseo</td>
+    <td>Chết</td>
+  </tr>
+  <tr>
+    <td>Hua</td>
+    <td>Sống</td>
+  </tr>
+  <tr>
+    <td>Perdofelis</td>
+    <td>Chết</td>
   </tr>
 </table>
+
 </body>
 </html>
