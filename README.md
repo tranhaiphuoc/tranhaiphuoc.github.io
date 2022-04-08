@@ -10,6 +10,7 @@
 	}
 	h1 {
 	  text-align: center;
+	  style="color: white;"
 	}
 	p {
 	  color: white;
@@ -37,7 +38,7 @@
 	</head>
 
 <body style="background-color: #1f1e23;">
-<h1 style="color: white;">Ý nghĩa tên 13 Anh Kiệt Trục Hỏa</h1>
+<h1>Ý nghĩa tên 13 Anh Kiệt Trục Hỏa</h1>
 <img src="perdo_phone.jpg" alt="Teri teri" width="10%" height="10%" />
 <p></p>
 <div class="centered">
@@ -129,7 +130,7 @@
 </table>
 
 <h1>Mobius's lab is seeking volenteers</h1>
-<form style="color: white;">
+<form>
   <label for="name">Your name:</label><br>
   <input type="text" id="name" name="name"><br>
   <label for="lname">Phone number:</label><br>
