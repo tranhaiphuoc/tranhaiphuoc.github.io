@@ -1,4 +1,3 @@
-
 <html>
 	<head>
 	<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
@@ -124,15 +123,6 @@
     <td>Chết</td>
   </tr>
 </table>
-
-<fieldset>
-  <legend>Personalia:</legend>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" form="form1"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" form="form1">
-</fieldset>
-
 
 </body>
 </html>
