@@ -30,6 +30,9 @@
   	  margin-left: auto; 
   	  margin-right: auto;
 	}
+	form {
+	  color: white;
+	}
 	</style>
 	</head>
 
@@ -125,13 +128,14 @@
   </tr>
 </table>
 
-<h2>Mobius's lab is seeking volenteers</h2>
+<h1>Mobius's lab is seeking volenteers
 <form>
   <label for="name">Your name:</label><br>
   <input type="text" id="name" name="name"><br>
   <label for="lname">Phone number:</label><br>
   <input type="text" id="phone" name="phone">
 </form>
-	
+</h1>
+
 </body>
 </html>
