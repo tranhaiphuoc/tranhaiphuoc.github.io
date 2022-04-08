@@ -72,6 +72,7 @@
   <tr>
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
+    <th>Gioi
   </tr>
   <tr>
     <td>Kevin</td>
