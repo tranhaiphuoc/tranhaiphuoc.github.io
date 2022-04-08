@@ -69,10 +69,9 @@
 <p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
 
 <table class="center" style="background-color: black;" >
-  <tr>
+  <tr class="center">
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
-    <th>Gioi
   </tr>
   <tr>
     <td>Kevin</td>
