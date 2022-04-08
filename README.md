@@ -21,8 +21,11 @@
 	  left: 43%;
 	  color: white;
 	}
-	table , th, td {
+	table, th, td {
 	  border: 1px solid white;
+	  text-align: center;
+	}
+	table {
 	  border-collapse: collapse;
 	  width: 100%
 	}
