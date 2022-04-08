@@ -22,7 +22,7 @@
 	table, td, th {
 	  color: white;
 	  border: 1px solid white;
-	  border-collapse: collapse;
+
 	  text-align: center;
 	}
 	table.center {
