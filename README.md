@@ -15,7 +15,7 @@
 
 <p style="font-size: 200%;">Anh Kiệt:</p>
 
-<ul style="color: white; font-size: 150%">
+<ul style="font-size: 150%">
   <li>Kevin</li>
   <li>Elysia</li>
   <li>Aponia</li>
