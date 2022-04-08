@@ -25,7 +25,7 @@
 	  border-collapse: collapse;
 	  text-align: center;
 	}
-	table.center {
+	.center {
 	  margin-left: auto;
   	  margin-right: auto;
 	}
