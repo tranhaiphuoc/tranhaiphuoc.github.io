@@ -24,6 +24,7 @@
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
+	  width: 100%
 	}
 	th, td {
 	  text-align: center;
