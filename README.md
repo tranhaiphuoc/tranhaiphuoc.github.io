@@ -24,6 +24,7 @@
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
+	  width: 100%
 	}
 	.center {
   	  margin-left: auto; 
@@ -71,7 +72,7 @@
 
 <table class="center">
   <tr>
-    <th width: 100%>Anh Kiệt</th>
+    <th>Anh Kiệt</th>
     <th	width: 100%>Trạng Thái</th>
   </tr>
   <tr>
