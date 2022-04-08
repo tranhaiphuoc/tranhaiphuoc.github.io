@@ -78,8 +78,8 @@
 
 <table class="center">
   <tr>
-    <th>Anh Kiệt</th>
-    <th>Trạng Thái</th>
+    <th style="width: 50%">Anh Kiệt</th>
+    <th style="width: 50%">Trạng Thái</th>
   </tr>
   <tr>
     <td>Kevin</td>
