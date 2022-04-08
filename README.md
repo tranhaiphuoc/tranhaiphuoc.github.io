@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 	<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
