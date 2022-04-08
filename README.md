@@ -1,5 +1,6 @@
 <html>
 	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
 	<style>
 	img {
@@ -23,6 +24,10 @@
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
+	}
+	table.center {
+  	  margin-left: auto; 
+  	  margin-right: auto;
 	}
 	</style>
 	</head>
@@ -64,10 +69,10 @@
 
 <p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
 
-<table>
+<table class="center">
   <tr>
-    <th colspan="3">Anh Kiệt</th>
-    <th colspan="3">Trạng Thái</th>
+    <th>Anh Kiệt</th>
+    <th>Trạng Thái</th>
   </tr>
   <tr>
     <td>Kevin</td>
