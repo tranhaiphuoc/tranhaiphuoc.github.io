@@ -21,6 +21,7 @@
 	  color: white;
 	}
 	table, td, th {
+	  width: 50%;
 	  color: white;
 	  border: 1px solid white;
 	  border-collapse: collapse;
@@ -70,7 +71,7 @@
 
 <p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
 
-<table class="center" style="width: 50%;">
+<table class="center">
   <tr>
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
