@@ -20,7 +20,7 @@
 	  left: 43%;
 	  color: white;
 	}
-	table ,th, td, tr {
+	table , tr, th, td {
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
