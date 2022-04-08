@@ -26,7 +26,7 @@
 	  text-align: center;
 	  width: 100%
 	}
-	th, td {
+	th, td, tr {
 	  text-align: center;
 	}
 	table.center {
