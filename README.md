@@ -72,10 +72,10 @@
 <p>✦ Ngoài ra, Kevin còn có một đứa con với Dr. MEI (do ghép gen). Anh ta đã mang đứa bé này vào buồng ngủ đông, sau 50000 năm Kevin trở lại cùng đứa trẻ và tự gọi mình là “Kaslana”. Đây chính là “sự khai sinh” ra gia tộc “Kaslana” hùng mạnh sau này.</p>
 <img src="kevin_desc.jpeg" alt="Teri Teri" />
 
-<p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
+<p align="center">P.S: Viết tới đây thôi (Lười)</p>
 
 <table class="center">
-  <tr class="center">
+  <tr>
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
   </tr>
