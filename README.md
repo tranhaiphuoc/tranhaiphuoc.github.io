@@ -20,16 +20,13 @@
 	  left: 43%;
 	  color: white;
 	}
-	table {
+	table ,th, td, tr {
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
 	  width: 100%
 	}
-	th, td, tr {
-	  text-align: center;
-	}
-	table.center {
+	.center {
   	  margin-left: auto; 
   	  margin-right: auto;
 	}
