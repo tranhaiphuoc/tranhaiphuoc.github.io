@@ -1,5 +1,15 @@
 <html>
 	<head>
+	<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
+	<style>
+	img {
+  	  display: block;
+  	  margin-left: auto;
+  	  margin-right: auto;
+	}
+	h1 {
+	  text-align: center;
+	}
 	</head>
 
 <body>
