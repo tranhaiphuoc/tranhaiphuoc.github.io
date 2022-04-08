@@ -10,7 +10,7 @@
 	}
 	h1 {
 	  text-align: center;
-	  style="color: white;"
+	  color: white;
 	}
 	p {
 	  color: white;
