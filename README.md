@@ -2,17 +2,42 @@
 	<head>
 	<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
 	<style>
+	img {
+  	  display: block;
+  	  margin-left: auto;
+  	  margin-right: auto;
+	}
 	h1 {
 	  text-align: center;
 	}
+	p {
+	  color: white;
+	  font-size: 150%; 
+	}
+	.centered a {
+	  position: relative;
+	  left: 46%;
+	  color: white;
+	}
+	table, td, th {
+	  width: 50%;
+	  color: white;
+	  border: 1px solid white;
+	  border-collapse: collapse;
+	  text-align: center;
+	}
+	table.center {
+	  margin-left: auto;
+  	  margin-right: auto;
+	}
+	</style>
 	</head>
 
-<body>
-
-<h1>Ý nghĩa tên 13 Anh Kiệt Trục Hỏa</h1>
+<body style="background-color: #1f1e23;">
+<h1 style="color: white;">Ý nghĩa tên 13 Anh Kiệt Trục Hỏa</h1>
 <img src="perdo_phone.jpg" alt="Teri teri" width="10%" height="10%" />
 <p></p>
-<div>
+<div class="centered">
   <a href="https://www.hoyolab.com/article/3945625" >Nguồn tham khảo.</a>
 </div>
 
@@ -20,7 +45,7 @@
 
 <p style="font-size: 200%;">Anh Kiệt:</p>
 
-<ul style="font-size: 150%">
+<ul style="color: white; font-size: 150%">
   <li>Kevin</li>
   <li>Elysia</li>
   <li>Aponia</li>
@@ -45,7 +70,7 @@
 
 <p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
 
-<table>
+<table class="center" style="background-color: black;">
   <tr>
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
@@ -56,19 +81,19 @@
   </tr>
   <tr>
     <td>Elysia</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Aponia</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Eden</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Vill-V</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Su</td>
@@ -76,11 +101,11 @@
   </tr>
   <tr>
     <td>Sakura</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Kosma</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Mobius</td>
@@ -88,7 +113,7 @@
   </tr>
   <tr>
     <td>Griseo</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
   <tr>
     <td>Hua</td>
@@ -96,7 +121,7 @@
   </tr>
   <tr>
     <td>Perdofelis</td>
-    <td>Hi sinh</td>
+    <td>Chết</td>
   </tr>
 </table>
 
