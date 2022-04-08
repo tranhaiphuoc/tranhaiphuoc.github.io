@@ -23,9 +23,11 @@
 	}
 	table, td {
 	  border: 1px solid white;
-	  text-align: center;
 	  border-collapse: collapse;
 	  width: 100%;
+	}
+	td {
+	  text-align: center;
 	}
 	.center {
   	  margin-left: auto; 
@@ -77,7 +79,7 @@
 <table class="center">
   <tr>
     <th style="width: 50%">Anh Kiệt</th>
-    <th style="width: 50%">Trạng Thái</th>
+    <th>Trạng Thái</th>
   </tr>
   <tr>
     <td>Kevin</td>
