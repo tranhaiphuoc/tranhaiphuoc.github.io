@@ -66,8 +66,8 @@
 
 <table>
   <tr>
-    <th>Anh Kiệt</th>
-    <th>Trạng Thái</th>
+    <th colspan="3">Anh Kiệt</th>
+    <th colspan="3">Trạng Thái</th>
   </tr>
   <tr>
     <td>Kevin</td>
