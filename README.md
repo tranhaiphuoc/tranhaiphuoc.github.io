@@ -16,11 +16,10 @@
 	}
 	.centered a {
 	  position: relative;
-	  left: 44%;
+	  left: 43%;
 	  color: white;
 	}
 	table, td, th {
-	  width: 50%;
 	  border: 1px solid white;
 	  border-collapse: collapse;
 	  text-align: center;
@@ -69,7 +68,7 @@
 
 <p align="center"><strong>P.S: </strong>Viết tới đây thôi (Lười).</p>
 
-<table class="center" style="background-color: black;">
+<table class="center" style="background-color: black;" >
   <tr>
     <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
