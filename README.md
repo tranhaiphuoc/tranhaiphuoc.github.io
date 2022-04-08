@@ -123,7 +123,13 @@
     <td>Chết</td>
   </tr>
 </table>
-
+	
+<table>
+  <tr>
+    <th>Anh Kiệt</th>
+    <th>Trạng Thái</th>
+  </tr>
+</table>
+	
 </body>
 </html>
-
