@@ -14,7 +14,7 @@
 
 <body>
 
-<h1 style="color: white;">Ý nghĩa tên 13 Anh Kiệt Trục Hỏa</h1>
+<h1>Ý nghĩa tên 13 Anh Kiệt Trục Hỏa</h1>
 <img src="perdo_phone.jpg" alt="Teri teri" width="10%" height="10%" />
 <p></p>
 <div>
