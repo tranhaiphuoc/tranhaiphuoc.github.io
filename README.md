@@ -27,6 +27,7 @@
 	  width: 100%;
 	}
 	td {
+	  width: 50%;
 	  text-align: center;
 	}
 	.center {
@@ -78,7 +79,7 @@
 
 <table class="center">
   <tr>
-    <th style="width: 50%">Anh Kiệt</th>
+    <th>Anh Kiệt</th>
     <th>Trạng Thái</th>
   </tr>
   <tr>
