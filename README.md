@@ -35,6 +35,9 @@
     color: aquamarine;
     text-decoration: underline;
   }
+  form {
+    color: white;
+  }
 	</style>
 	</head>
 
@@ -157,6 +160,17 @@
     <td>Hi sinh</td>
   </tr>
 </table>
+
+<h2 style="color: greenyellow;">Mobius's lab seeking volunteers!!!</h2>
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="addr">Address:</label>
+  <input type="text" id="addr" name="addr"><br><br>
+  <input type="submit" value="Submit">
+</form>
 
 </body>
 </html>
