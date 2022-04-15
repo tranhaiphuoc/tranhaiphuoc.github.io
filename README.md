@@ -56,7 +56,7 @@
 <ul style="color: white; font-size: 150%">
   <li><a href="#Kevin_MOTH">Kevin</a></li>
   <li><a href="#Elysia_MOTH">Elysia</a></li>
-  <li>Aponia</li>
+  <li><a href="#Aponia_MOTH">Aponia</a></li>
   <li>Eden</li>
   <li>Vill-V</li>
   <li>Su</li>
@@ -91,7 +91,7 @@
 <hr>
 
 <h1 id="Aponia_MOTH" style="color: #d85e2c;">II. Elysia</h1>
-<img class="center" src="images/aponia.png" alt="Teri Teri" >
+<img class="center" src="images/aponia.png" alt="Teri Teri" width="80%">
 <p>✦ Trong tiếng anh, “Aponia” được dịch nghĩa là “không đau đớn”, là một trạng thái đỉnh cao của cảm nhận của cơ thể. Người Epicurean tin rằng mục tiêu của cuộc sống con người là sự hạnh phúc.</p>
 <img class="center" src="images/aponia_mean.png" alt="Teri Teri" width="80%" >
 <p>✦ Aponia trong HI3 cũng sở hữu khả năng để làm ra điều “tương tự” như trên. Khắc ấn của cô là “Giới luật”, có sức mạnh liên quan đến tinh thần, nó có thể “ràng buộc” tâm trí con người. Nhờ đó, cô dễ dàng thao túng tâm trí người khác và khiến họ cảm thấy “không đau đớn”, “hạnh phúc” trong thời khắc cuối cùng khi Herrscher of the End xóa sổ nền văn minh.</p>
