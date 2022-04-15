@@ -1,7 +1,7 @@
 <html>
 	<head>
 	<title>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</title>
-	<link rel="icon" type="image/x-icon" href="perdo_phone.jpg">
+	<link rel="icon" type="image/x-icon" href="images/perdo_phone.jpg">
 	<style>
 	h1 {
 	  text-align: center;
