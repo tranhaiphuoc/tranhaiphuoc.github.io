@@ -23,6 +23,9 @@
   th {
     background-color: #1c69ed;
   }
+	table {
+		padding: auto;	
+	}
 	img, .center {
     display: block;
 	  margin-left: auto;
