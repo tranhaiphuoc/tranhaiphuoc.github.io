@@ -14,7 +14,7 @@
 	}
 	table, td, th {
     background-color: burlywood;
-	  width: auto;
+	  width: 20%;
 	  color: black;
 	  border: 1px solid black;
 	  border-collapse: collapse;
