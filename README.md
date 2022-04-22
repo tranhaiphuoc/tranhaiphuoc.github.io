@@ -14,7 +14,7 @@
 	}
 	table, td, th {
     background-color: burlywood;
-	  width: 20%;
+	  width: auto;
 	  color: black;
 	  border: 1px solid black;
 	  border-collapse: collapse;
@@ -23,9 +23,6 @@
   th {
     background-color: #1c69ed;
   }
-	table {
-		padding: auto;	
-	}
 	img, .center {
     display: block;
 	  margin-left: auto;
