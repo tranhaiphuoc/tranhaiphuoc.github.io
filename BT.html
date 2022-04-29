@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    </title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    header {
+        background-color: hsl(225, 57%, 23%);
+        height: 10vh;
+    }
+    section {
+        text-align: center;
+        background-color: hsl(200, 57%, 23%);
+        height: 70vh;
+    }
+    footer {
+        background-color: hsl(175, 57%, 23%);
+        height: 20vh;
+    }
+    img {
+        position: absolute;
+    }
+    a:link, a:visited {
+        font-size: 20px;
+        padding: 50px 20px;
+        color: white;
+        text-decoration: none;
+    }
+    a:hover, a:active {
+        font-size: 20px;
+        padding: 50px 20px;
+        color: black;
+        background-color: white;
+        text-decoration: underline;
+    }
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .mag {
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    form.example input[type=text] {
+        border-radius: 20px 0 0 20px;
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+    form.example button {
+        border-radius: 0 20px 20px 0;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    </style>
+</head>
+<body style="margin: 0;font-family: Arial;">
+
+<img src="perdo_phone.jpg" alt="Teri" width="87px">
+<div class="flex-box">
+    <header>
+    <div class="mag">
+        <a href="#">Tutorials</a>
+        <a href="#">References</a>
+        <a href="#">Excecises</a>
+        <a href="#">Video</a>
+    </div>
+    </header>
+
+
+    <section>
+    <h1 style="font-size: 50px;color: white;margin-bottom: 30px;margin-top: 80px;">Learn to Code</h1>
+    <h3 style="margin-bottom: 30px;">With the world's largest web developer site.</h3>
+    <form class="example" action="" style="margin:auto;max-width:300px;">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </section>
+
+    <footer>
+    <p>This is footer</p>
+    </footer>
+</div>
+
+</body>
+</html>
