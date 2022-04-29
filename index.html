@@ -1,61 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-	<meta charset="utf-8">
+<html>
+<head>
+    <title>
+    </title>
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>
-	</title>
-	<style>
-		.color, a {
-			color: #3aacce;
-		}
-		.img {
-			position: absolute;
-			border: 1px solid whitesmoke;
-			top: 40px;
-			margin-left: 40px;
-		}
-		.img-center {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 150px;
-		}
-		.cunny {
-			text-align: center;
-			color: #133165;
-			border-radius: 30px;
-			padding:10px;
-			margin-left:auto;
-			margin-right:auto;
-			width:170px;
-			background-color: #3aacce;
-		}
-		.moth {
-			font-size: 200%;
-			margin-right: 100px;
-			margin-top: 80px;
-		}
-	</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    header {
+        background-color: hsl(225, 57%, 23%);
+        height: 10vh;
+    }
+    section {
+        text-align: center;
+        background-color: hsl(200, 57%, 23%);
+        height: 70vh;
+    }
+    footer {
+        background-color: hsl(175, 57%, 23%);
+        height: 20vh;
+    }
+    img {
+        position: absolute;
+    }
+    a:link, a:visited {
+        font-size: 20px;
+        padding: 50px 30px;
+        color: white;
+        text-decoration: none;
+    }
+    a:hover, a:active {
+        font-size: 20px;
+        padding: 50px 30px;
+        color: black;
+        background-color: white;
+        text-decoration: underline;
+    }
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .mag {
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    form.example input[type=text] {
+        border-radius: 15px 0 0 15px;
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+    form.example button {
+        border-radius: 0 15px 15px 0;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    </style>
 </head>
-<body background="wp4040609.jpg">
+<body style="margin: 0;font-family: Arial;">
+
+<img src="perdo_phone.jpg" alt="Teri" width="87px">
+<div class="flex-box">
+    <header>
+    <div class="mag">
+        <a href="#">Tutorials</a>
+        <a href="#">References</a>
+        <a href="#">Excecises</a>
+        <a href="#">Video</a>
+    </div>
+    </header>
 
 
-<img class="color img" src="perdo_phone.jpg" width="152px" height="141px">
-<div class="moth" align="right">
-	<a href="MOTH/kevin.html" target="_blank">Kevin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="MOTH/elysia.html" target="_blank">Elysia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="MOTH/aponia.html" target="_blank">Aponia</a>
+    <section>
+    <h1 style="font-size: 50px;color: white;margin-bottom: 30px;margin-top: 80px;">Learn to Code</h1>
+    <h3 style="margin-bottom: 30px;">With the world's largest web developer site.</h3>
+    <form class="example" action="" style="margin:auto;max-width:300px;">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </section>
+
+    <footer>
+    <p>This is footer</p>
+    </footer>
 </div>
-<br><br><br><br><br>
-
-<h1 align="center">
-	<font color="white" size="7">
-		Welcome to the <span style="color:goldenrod;">FIRE MOTH</span>'s circus !!!
-	</font>
-</h1>
-
-<img class="img-center" src="cunny.jfif" alt="cunny">
-<h3 class="cunny">CUNNY INDEED !</h3>
 
 </body>
 </html>
