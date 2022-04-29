@@ -38,7 +38,6 @@
 </head>
 <body background="wp4040609.jpg">
 
-
 <img class="color img" src="perdo_phone.jpg" width="152px" height="141px">
 <div class="moth" align="right">
 	<a href="MOTH/kevin.html" target="_blank">Kevin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
