@@ -13,6 +13,17 @@ a {
     text-decoration: none;
 }
 
+.banner {
+    position: relative;
+    background: url(/style/banner.jpg) black center/cover no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
 .disclaim {
     text-align: center;
     text-decoration: underline;
@@ -40,9 +51,9 @@ a {
 
 .navbar {
     height: 5rem;
-    width: 100vw;
+    width: 100%;
     padding: 0 3rem;
-    background: rgb(89, 194, 243);
+    background: rgb(145, 201, 227);
 }
 
 .flex {
@@ -98,7 +109,7 @@ a {
 }
 
 .container h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 @media (max-width: 1300px) {
@@ -108,6 +119,10 @@ a {
 }
 
 @media (max-width: 1024px) {
+    .disclaim {
+        font-size: 1.5rem;
+    }
+
     .hamburger {
         display: block;
     }
