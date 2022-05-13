@@ -1,103 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>
-    </title>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    header {
-        background-color: hsl(225, 60%, 36%);
-        height: 10vh;
-    }
-    section {
-        text-align: center;
-        background-image: url(wp4040609.jpg);
-        height: 80vh;
-    }
-    footer {
-        background-color: hsl(200, 60%, 36%);
-        height: 10vh;
-    }
-    img {
-        position: absolute;
-        max-width: 5.67%;
-        width: auto;
-    }
-    a:link, a:visited {
-        font-size: 20px;
-        padding: 50px 20px;
-        color: white;
-        text-decoration: none;
-    }
-    a:hover, a:active {
-        font-size: 20px;
-        padding: 50px 20px;
-        color: black;
-        background-color: white;
-        text-decoration: none;
-    }
-    .flex-box {
-        display: flex;
-        flex-direction: column;
-    }
-    .mag {
-        margin-top: 30px;
-        margin-left: 100px;
-    }
-    form.example input[type=text] {
-        border-radius: 20px 0 0 20px;
-        padding: 10px;
-        font-size: 17px;
-        border: 1px solid grey;
-        float: left;
-        width: 80%;
-        background: whitesmoke;
-    }
-    form.example button {
-        border-radius: 0 20px 20px 0;
-        float: left;
-        width: 20%;
-        padding: 10px;
-        background: #2196F3;
-        color: white;
-        font-size: 17px;
-        border: 1px solid grey;
-        border-left: none;
-        cursor: pointer;
-    }
-    * {
-        box-sizing: border-box;
-    }
-    </style>
-</head>
-<body style="margin: 0;font-family: Arial;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style/Untitled-1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $(".hamburger").on("click", function() {
+                    if($(".menu").hasClass("active")) {
+                        $(".menu").removeClass("active");
+                    }
+                    else {
+                        $(".menu").addClass("active")
+                    }
+                })
+            });
+        </script>
+        <title>Neko</title>
+    </head>
+    <body>
+        <nav class="navbar flex">
+            <h1 class="logo">Koneko</h1>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Career</a>
+                <a href="#">Activities</a>
+                <a href="#">Contact Us</a>
+                <a href="#">About</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
 
-<img src="perdo_phone.jpg" alt="Teri" width="5.67%">
-<div class="flex-box">
-    <header>
-    <div class="mag">
-        <a href="web.html" target="_blank">Lobby</a>
-        <a href="#">References</a>
-        <a href="#">Excecises</a>
-        <a href="#">Video</a>
-    </div>
-    </header>
+        <div class="benefit">
+            <span class="icon">
+                <img src="style/mountain.png" alt="icon">
+            </span>
 
-    <section>
-    <h1 style="font-size: 50px;color: white;margin-bottom: 30px;margin-top: 80px;">Learn to Code</h1>
-    <h3 style="color: hsl(320, 55%, 71%);margin-bottom: 30px;">With the world's largest web developer site.</h3>
-    <form class="example" action="" style="margin:auto;max-width:300px;">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-    </section>
+            <h1 class="disclaim">Inspired by: WiDOSOFT.com</h1>
 
-    <footer>
-    <h2 style="margin: 30px 20px;color: hsl(0, 19%, 77%);">&copy; Copyright Free</h2>
-    </footer>
-</div>
-
-</body>
+            <div class="container">
+                <div class="content">
+                    <h3>GROWTH</h3>
+                    <p>We are well aware that we obtain the stable development only if we bring great benefits to clients. We also guarantee to support for our clients at all time.</p>
+                </div>
+                <div class="content">
+                    <h3>BELIEF</h3>
+                    <p>We get the belief from our real capacity, enthusiasm which are parts of our clients culture. We are proud of creating the belief to our Japanese clients and still keep going.</p>
+                </div>
+                <div class="content">
+                    <h3>QUALITY</h3>
+                    <p>We appreciate the meticulousness, one of factors results in good products and satisfaction.We strive to achieve excellence in whatever we do with principle of Never stop improving quality.</p>
+                </div>
+                <div class="content">
+                    <h3>VALUE</h3>
+                    <p>Human capacity helps to create good value. We completely believe WiDOSOFT is always the best place for all of our staffs to get their progress.</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
