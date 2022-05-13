@@ -13,6 +13,16 @@ a {
     text-decoration: none;
 }
 
+.slogan {
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+.slogan h1 {
+    padding-bottom: 1rem;
+}
+
 .banner {
     position: relative;
     background: url(/style/banner.jpg) black center/cover no-repeat;
