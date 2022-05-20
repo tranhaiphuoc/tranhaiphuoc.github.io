@@ -1,33 +1,12 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="style/Untitled-1.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(function() {
-                $(".hamburger").on("click", function() {
-                    if($(".menu").hasClass("active")) {
-                        $(".menu").removeClass("active");
-                    }
-                    else {
-                        $(".menu").addClass("active")
-                    }
-                })
-            });
-        </script>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="/web2/style.css">
         <title>Neko</title>
     </head>
     <body>
-        <div class="banner">
-            <div class="slogan">
-                <h1>Wi****FT</h1>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-        </div>
-
-        <nav class="navbar flex">
+        <nav class="navbar">
             <h1 class="logo">Koneko</h1>
             <div class="menu">
                 <a href="#">Home</a>
@@ -36,21 +15,34 @@
                 <a href="#">Contact Us</a>
                 <a href="#">About</a>
             </div>
-            <button class="hamburger">
+            <div class="lang-btn">
+                <div class="lang">EN</div>
+                <div class="lang active">JP</div>
+            </div>
+            <div class="toggle">
                 <span></span>
                 <span></span>
                 <span></span>
-            </button>
+            </div>
         </nav>
 
-        <div class="benefit">
+        <div class="side-nav">
+            <a href="#">Home</a>
+            <a href="#">Career</a>
+            <a href="#">Activities</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About</a>
+            <span class="exit">Exit</span>
+        </div>
+
+        <div class="container">
             <span class="icon">
-                <img src="style/mountain.png" alt="icon">
+                <img src="web2/mountain.png" alt="icon">
             </span>
 
             <h1 class="disclaim">Inspired by: WiDOSOFT.com</h1>
 
-            <div class="container">
+            <div class="benefit">
                 <div class="content">
                     <h3>GROWTH</h3>
                     <p>We are well aware that we obtain the stable development only if we bring great benefits to clients. We also guarantee to support for our clients at all time.</p>
@@ -69,5 +61,7 @@
                 </div>
             </div>
         </div>
+
+        <script src="/web2/main.js"></script>
     </body>
 </html>
