@@ -230,7 +230,7 @@ a {
     }
     
     .lang.active {
-        margin: 0;
+        display: none;
     }
 
     .navbar {
