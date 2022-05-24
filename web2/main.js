@@ -1,8 +1,6 @@
-var sideNav = document.querySelector('.side-nav');
-var overlay = document.getElementById('overlay');
-
-
 //Toggle the side-navigation bar.
+var sideNav = document.querySelector('.side-nav');
+
 document.querySelector('.toggle').addEventListener('click', openNav);
 
 function openNav() {
@@ -12,7 +10,7 @@ function openNav() {
     div.id = 'overlay';
     div.onclick = function closeNav() {
         sideNav.classList.remove('active');
-        overlay.remove();
+        document.getElementById('overlay').remove();
     }
     document.body.appendChild(div);
 }
@@ -32,6 +30,8 @@ langList.forEach(lang => {
 
 
 //Hide side-navigation bar when the width's condition is met
+var overlay = document.getElementById('overlay');
+
 function collapseSideNav() {
     if (window.innerWidth > 1200) {
         sideNav.style.display = 'none';
