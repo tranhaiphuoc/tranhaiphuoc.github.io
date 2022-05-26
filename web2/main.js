@@ -1,6 +1,6 @@
 //Toggle the side-navigation bar.
-var sideNav = document.querySelector('.side-nav');
 document.querySelector('.toggle').addEventListener('click', openNav);
+var sideNav = document.querySelector('.side-nav');
 
 function openNav() {
     sideNav.classList.add('active');
