@@ -30,7 +30,7 @@ langList.forEach(lang => {
 
 //Hide side-navigation bar when the width's condition is met
 function collapseSideNav() {
-    if (window.innerWidth > 1200) {
+    if (window.innerWidth > 1100) {
         sideNav.style.display = 'none';
         document.getElementById('overlay').style.display = 'none';
     }
