@@ -53,6 +53,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     height: 100%;
 }
 
@@ -117,16 +118,12 @@ a {
     cursor: pointer;
 }
 
-.lang-btn img {
-    display: block;
-}
-
 .lang-btn p {
     padding-left: .5em;
 }
 
 .lang:first-child {
-    margin-right: .3em;
+    margin-right: .5em;
 }
 
 .lang:hover {
@@ -246,10 +243,6 @@ a {
 
     .lang:first-child {
         margin-right: 0;
-    }
-    
-    .lang.active {
-        display: none;
     }
 
     .navbar {
