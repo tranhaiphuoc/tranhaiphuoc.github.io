@@ -35,14 +35,12 @@ function collapseSideNav() {
             sideNav.style.display = 'none';
             document.getElementById('overlay').style.display = 'none';
         }
-        else {;}
     }
     else {
         if (document.getElementById('overlay')) {
             sideNav.style.display = 'block';
             document.getElementById('overlay').style.display = 'block';
         }
-        else {;}
     }
 }
 window.addEventListener('resize', collapseSideNav);
