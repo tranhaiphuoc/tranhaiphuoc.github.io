@@ -368,4 +368,8 @@ footer .quick-info {
     .container .content {
         max-width: 100%;
     }
+    
+    .quick-info .container {
+        flex-flow: column;
+    }
 }
