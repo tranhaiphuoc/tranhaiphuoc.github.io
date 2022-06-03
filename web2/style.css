@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    line-height: 1.5em;
 }
 
 a {
@@ -36,7 +37,6 @@ a {
     font-weight: bold;
     font-size: 1.5rem;
 }
-
 
 /*-----------Navigation Bar-----------*/
 .logo {
@@ -229,12 +229,27 @@ a {
 }
 
 .content {
+    display: flex;
     padding: 2em;
     transition: box-shadow .2s linear;
 }
 
 .content:hover {
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, .1);
+}
+
+.content div {
+    padding: 0 1em;
+}
+
+.content h3 {
+    padding-bottom: .5em;
+}
+
+.content img {
+    display: block;
+    width: 4em;
+    height: 4em;
 }
 
 
@@ -369,7 +384,7 @@ footer .quick-info {
     .container .content {
         max-width: 100%;
     }
-    
+
     .quick-info .container {
         flex-flow: column;
     }
