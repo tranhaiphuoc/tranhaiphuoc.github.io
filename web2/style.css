@@ -250,6 +250,11 @@ a {
     display: block;
     width: 4em;
     height: 4em;
+    filter: grayscale(70%);
+}
+
+.content:hover img {
+    filter: grayscale(0);
 }
 
 
@@ -363,7 +368,14 @@ footer .quick-info {
     }
 
     .content {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+    }
+
+    .content h3 {
+        padding-top: .5em;
     }
 }
 
@@ -383,6 +395,10 @@ footer .quick-info {
 
     .container .content {
         max-width: 100%;
+    }
+
+    .content img {
+        filter: grayscale(0);
     }
 
     .quick-info .container {
