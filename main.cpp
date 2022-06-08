@@ -49,8 +49,8 @@ void toTail(List &l, Node *p) {
 	l.pTail = p;
 }
 //------------DELETE_A_NODE-------------//
-void deleteNode(List &l, value) {
-	for (Node *q=l.Head; q!=NULL; q=q->pNext) {
+void deleteNode(List &l, int value) {
+	for (Node *q=l.pHead; q!=NULL; q=q->pNext) {
 		if (q->data == value) {
 			Node *t = q;
 			q = t->pNext;
