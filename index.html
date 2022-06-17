@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="web2/style.css">
         <title>Neko</title>
+        <link rel="stylesheet" href="web2/mediaquery.css">
     </head>
     <body>
 
@@ -21,15 +22,15 @@
             <div class="container">
                 <h1 class="logo">Koneko</h1>
                 <div class="menu">
-                    <a class="nav-link active" href="index.html">Home</a>
-                    <a class="nav-link" href="#">Career</a>
-                    <a class="nav-link" href="#">Activities</a>
-                    <a class="nav-link" href="#">Contact Us</a>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active" href="index.html">ホーム</a>
+                    <a class="nav-link" href="#">実績</a>
+                    <a class="nav-link" href="#">採用情報</a>
+                    <a class="nav-link" href="#">当社について</a>
+                    <a class="nav-link" href="#">当社の活動</a>
                 </div>
                 <div class="lang-btn">
                     <div>
-                        <a class="lang" href="#">
+                        <a class="lang" href="#" onclick="loadEnglishHTML()">
                             <img src="web2/uk.png" alt="en">
                             <p>EN</p>
                         </a>
@@ -50,12 +51,12 @@
         </nav>
 
         <div class="side-nav">
-            <a class="side-nav-link active" href="index.html">Home</a>
-            <a class="side-nav-link" href="#">Career</a>
-            <a class="side-nav-link" href="#">Activities</a>
-            <a class="side-nav-link" href="#">Contact Us</a>
-            <a class="side-nav-link" href="#">About</a>
-            <span class="exit">Exit</span>
+            <a class="side-nav-link active" href="index.html">ホーム</a>
+            <a class="side-nav-link" href="#">実績</a>
+            <a class="side-nav-link" href="#">採用情報</a>
+            <a class="side-nav-link" href="#">当社について</a>
+            <a class="side-nav-link" href="#">当社の活動</a>
+            <span class="exit">Close</span>
         </div>
 
         <div class="benefit">
@@ -67,29 +68,29 @@
                 <div class="content">
                     <img src="web2/growth.png" alt="growth">
                     <div>
-                        <h3>GROWTH</h3>
-                        <p>We are well aware that we obtain the stable development only if we bring great benefits to clients. We also guarantee to support for our clients at all time.</p>
+                        <h3>成長</h3>
+                        <p>私たちは、顧客に大きな利益をもたらすために、安定かつ持続した開発環境を構築しています。また、常にお客様のサポート体制を重視しています。</p>
                     </div>
                 </div>
                 <div class="content">
                     <img src="web2/belief.png" alt="belief">
                     <div>
-                        <h3>BELIEF</h3>
-                        <p>We get the belief from our real capacity, enthusiasm which are parts of our clients culture. We are proud of creating the belief to our Japanese clients and still keep going.</p>
+                        <h3>信念</h3>
+                        <p>私たちは、顧客の信念と共鳴し、お客様に信頼されることを信念としています。</p>
                     </div>
                 </div>
                 <div class="content">
                     <img src="web2/quality.png" alt="quality">
                     <div>
-                        <h3>QUALITY</h3>
-                        <p>We appreciate the meticulousness, one of factors results in good products and satisfaction.We strive to achieve excellence in whatever we do with principle of Never stop improving quality.</p>
+                        <h3>品質</h3>
+                        <p>私たちは品質が商品の良さや満足度につながる要素の一つであることを認識しています。私たちは、品質向上を決して止めないという理念のもと、全てにおいてエクセレンスを目指します。</p>
                     </div>
                 </div>
                 <div class="content">
                     <img src="web2/value.png" alt="value">
                     <div>
-                        <h3>VALUE</h3>
-                        <p>Human capacity helps to create good value. We completely believe WiDOSOFT is always the best place for all of our staffs to get their progress.</p>
+                        <h3>価値</h3>
+                        <p>人間の能力こそが良い価値を生み出します。WiDOSOFTは、すべてのスタッフが進歩していくための最良の場所であると確信しています。</p>
                     </div>
                 </div>
             </div>
@@ -99,8 +100,8 @@
             <div class="container">
                 <img src="web2/torii_gate.jpg" alt="Torii Gate">
                 <div class="about-content">
-                    <h1><span>W</span>ho We Are?</h1>
-                    <p>For years, we have been providing our clients in Japan with software consulting, design and development services for: Web Systems, Mobile Applications, Mobile Games, AI Development, AR/VR, Blockchain, Outsourcing Designs, and so on. We promise to bring total satisfaction to our clients.</p>
+                    <h1><span>私</span>たちについて</h1>
+                    <p>当社は長年、Webシステム、モバイルアプリケーション、モバイルゲーム、AI開発、AR/VR、Blockchain、デザインアウトソーシングなどのソフトウェアコンサルティング、設計および開発サービスを日本のクライアントに提供してきました。私たちは顧客に安心と満足をもたらすことを約束します。当社は長年、Webシステム、モバイルアプリケーション、モバイルゲーム、AI開発、AR/VR、Blockchain、デザインアウトソーシングなどのソフトウェアコンサルティング、設計および開発サービスを日本のクライアントに提供してきました。私たちは顧客に安心と満足をもたらすことをお約束します。</p>
                 </div>
             </div>
         </div>
@@ -109,40 +110,40 @@
             <div class="container">
                 <div class="stat-container">
                     <div class="stat-desc">
-                        <h1>Statistical</h1>
-                        <p>Over 7 years of experience working with more than 30 Japanese clients.</p>
+                        <h1>統計</h1>
+                        <p>7年にわたり、30以上のクライアントとお仕事をしています</p>
                     </div>
                     <div class="stat-content-container">
                         <div class="stat-content">
                             <div>
                                 <h1 class="total-count">200+</h1>
-                                <h3>TOTAL PROJECTS</h3>
-                                <p>It's Finished</p>
+                                <h3>全てのプロジェクト</h3>
+                                <p>完了</p>
                             </div>
                             <div>
                                 <h1 class="total-count">50+</h1>
-                                <h3>EXPERIENCE SKILLS</h3>
-                                <p>Perfect</p>
+                                <h3>経験に基づくスキル</h3>
+                                <p>完璧</p>
                             </div>
                             <div>
                                 <h1 class="total-count">97%</h1>
-                                <h3>CUSTOM'S TRUSTED</h3>
-                                <p>Absolutely</p>
+                                <h3>顧客からの信頼</h3>
+                                <p>絶大</p>
                             </div>
                             <div>
                                 <h1 class="total-count">98%</h1>
-                                <h3>WEB SYSTEM AND MOBILE APP</h3>
-                                <p>System and Build</p>
+                                <h3>ウェブシステムとモバイルアプリ</h3>
+                                <p>システム構築</p>
                             </div>
                             <div>
                                 <h1 class="total-count">100+</h1>
-                                <h3>GRAPHIC DESIGN</h3>
-                                <p>Web, Logo, Intro,...</p>
+                                <h3>グラフィックデザイン</h3>
+                                <p>ウェブデザイン、ロゴデザイン、記事製作 ...</p>
                             </div>
                             <div>
                                 <h1 class="total-count">100+</h1>
-                                <h3>SYSTEM CONTROL</h3>
-                                <p>Runtime</p>
+                                <h3>システム保守</h3>
+                                <p>ランタイム</p>
                             </div>
                         </div>
                     </div>
@@ -163,11 +164,11 @@
                     <div class="link-info">
                         <h1>Quick Link</h1>
                         <div class="link-info-links">
-                            <a href="#">About Us</a>
-                            <a href="#">Career</a>
-                            <a href="#">Contact Us</a>
-                            <a href="#">Services</a>
-                            <a href="#">Company Activities</a>
+                            <a href="#">当社について</a>
+                            <a href="#">採用情報</a>
+                            <a href="#">お問い合わせ</a>
+                            <a href="#">実績</a>
+                            <a href="#">社の活動</a>
                         </div>
                     </div>
                 </div>
