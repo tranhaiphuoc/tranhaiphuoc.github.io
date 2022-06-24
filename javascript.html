@@ -59,7 +59,7 @@
         };
 
 
-        document.querySelector('.total').addEventListener('click', total)
+        document.querySelector('.total').addEventListener('click', total);
         function total() {
             let total = 0;
             for (let i = 1; i <= 10; i++) {
@@ -69,13 +69,13 @@
         };
 
 
-        document.querySelector('.total-even').addEventListener('click', totalEvenNum)
+        document.querySelector('.total-even').addEventListener('click', totalEvenNum);
         function totalEvenNum() {
             let total = 0;
             for (let i = 1; i <= 10; i++) {
                 if (i % 2 === 0) {
                     total += i;
-                }
+                };
             };
             document.getElementById('demo').innerText = `Tong tu 1-10: ${total}`;
         };
