@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .container {
+            display: grid;
+            place-items: center;
+            width: 23em;
+            min-height: 17em;
+            margin: auto;
+            padding: 1em;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .display {
+            display: grid;
+            place-items: center;
+            width: 15em;
+            min-height: 15em;
+            margin-bottom: 1em;
+            background: rgba(255, 255, 255, 0.3);
+            border: 2px solid #000;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+        .input-field {
+            margin-bottom: 2em;
+        }
+        .input-field label {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .input-field input {
+            padding: .3em;
+        }
+        button {
+            margin-right: 1em;
+            padding: 1em 1em;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        button:last-child {
+            margin: 0;
+        }
+        .button-container {
+            margin-bottom: 2em;
+        }
+        .web-link p {
+            padding-bottom: 1em;
+            font-weight: bold;
+        }
+        .web-link a {
+            display: block;
+            padding-bottom: .5em;
+            text-decoration: none;
+            color: rgba(0, 0, 0, .5);
+        }
+        .web-link a:hover {
+            text-decoration: underline;
+            color: rgba(0, 0, 0, .8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="display"></div>
+        <div class="input-field">
+            <label for="input">Enter a number:</label>
+            <input type="text" id="input">
+        </div>
+        <div class="button-container">
+            <button type="button" id="greet">Click Me!</button>
+            <button type="button" id="sum">Click Me!</button>
+            <button type="button" id="sum-even">Click Me!</button>
+        </div>
+        <div class="web-link">
+            <p>Website (Wordpress somehow doesn't work):</p>
+            <a href="https://thphuoc12c4nvtroi.wixsite.com/website">https://thphuoc12c4nvtroi.wixsite.com/website</a>
+            <a href="https://tranhaiphuoc.blogspot.com/">https://tranhaiphuoc.blogspot.com/</a>
+            <a href="https://tranhaiphuoc.wordpress.com/">https://tranhaiphuoc.wordpress.com/</a>
+        </div>
+    </div>
+
+    <script>
+        const displayField = document.querySelector('.display');
+        
+        // Click to greet the user
+        const greetButton = document.getElementById('greet');
+        greetButton.addEventListener('click', () => {
+            displayField.textContent = 'Hello and Welcome!!!';
+        });
+
+        // Check the input value
+        const checkInputValue = () => {
+            const inputValue = document.getElementById('input').value;
+
+            if (inputValue === '') {
+                displayField.textContent = 'Enter your number!!!';
+                return false;
+            };
+            
+            if (!Number(inputValue)) {
+                displayField.textContent = 'Enter a valid value!!!';
+                return false;
+            };
+
+            return Number(inputValue);
+        }
+
+        // Click to calculate the sum between 1 and the input value
+        const summation = document.getElementById('sum');
+        summation.addEventListener('click', () => {
+            const inputValue = checkInputValue();
+
+            if (inputValue === false) {
+                return;
+            };
+
+            let total = 0;
+            for (let i = 1; i <= inputValue; i++) {
+                total += i;
+            };
+            displayField.textContent = `Total: ${total}`;
+        });
+
+        // Click to calculate the sum of even number between 1 and the input value
+        const summationEven = document.getElementById('sum-even');
+        summationEven.addEventListener('click', () => {
+            const inputValue = checkInputValue();
+
+            if (inputValue === false) {
+                return;
+            }
+        
+            let total = 0;
+            for (let i = 1; i <= inputValue; i++) {
+                if (i % 2 === 0) {
+                    total += i;
+                }
+            };
+            displayField.textContent = `Total of even numbers: ${total}`;
+        });
+    </script>
+</body>
+</html>
