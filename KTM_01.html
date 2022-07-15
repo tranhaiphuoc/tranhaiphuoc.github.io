@@ -84,7 +84,7 @@
                     </div>
 
                     <p>Hạnh kiểm:</p>
-                    <div class="hanh-kiem flex">
+                    <div class="hanh-kiem">
                         <div class="dat">
                             <input type="radio" name="hanh-kiem" value="dat" id="hanh-kiem">
                             <label for="hanh-kiem">Đạt</label>
@@ -109,11 +109,11 @@
     <script>
         const form = document.getElementById('grade').addEventListener('submit', (e) => {
             e.preventDefault();
-            const toan = document.getElementById('toan').value;
+            const diemToan = document.getElementById('toan').value;
 
-            const van = document.getElementById('van').value;
+            const diemVan = document.getElementById('van').value;
 
-            const diemTrungBinh = (Number(toan) + Number(van)) / 2;
+            const diemTrungBinh = (Number(diemToan) + Number(diemVan)) / 2;
 
             const hanhKiem = document.getElementsByName('hanh-kiem');
             hanhKiem.forEach(loai => {
