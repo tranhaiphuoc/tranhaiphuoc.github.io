@@ -70,7 +70,7 @@
     <section>
         <div class="container">
             <div class="input-data">
-                <form>
+                <form id="grade">
                     <div class="toan">
                         <label for="toan">Toán:</label>
                         <input type="text" id="toan">
@@ -104,7 +104,7 @@
     </section>
 
     <script>
-        const form = document.getElementById('user-detail').addEventListener('submit', (e) => {
+        const form = document.getElementById('grade').addEventListener('submit', (e) => {
             e.preventDefault();
             const toan = document.getElementById('toan').value;
 
